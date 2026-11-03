@@ -84,4 +84,4 @@
 - 個人與工作是同一帳戶中的篩選，不是多人組織或共用帳本。
 - 每帳戶上限為 500 個支出項目、50 種付款方式與 3,000 筆付款紀錄；JSON API payload 上限 1 MiB。原始格式化備份可達 4 MiB，但還原資料仍須符合實際 payload 與 schema 限制。
 - 審查沒有覆蓋真實跨帳戶登入、正式 Sites 存取控制、遠端 D1 行為或 production 部署設定。私有檢視站與公開 GitHub 原始碼的存取權限需分別確認。
-- 正式部署已成功；服務讀取確認 `DB.workspaces` 存在，瀏覽器開啟已發佈網址可見 ChatGPT 登入保護頁。公開 GitHub 可讀性仍由發佈流程確認；`sub.ages.tw` 已登記但 DNS／SSL 驗證仍 pending。實際設定見 [部署紀錄](deployment.md)。
+- 正式部署已成功；服務讀取確認 `DB.workspaces` 存在，瀏覽器開啟已發佈網址可見 ChatGPT 登入保護頁。已透過 GitHub API 確認 `easysun/subway` 為 public、main 已包含完整原始碼；`sub.ages.tw` 已登記但 DNS／SSL 驗證仍 pending。實際設定見 [部署紀錄](deployment.md)。

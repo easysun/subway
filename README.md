@@ -4,6 +4,10 @@
 
 集中管理串流與軟體訂閱、稅費與水電、企業雲端服務、租賃、保險及其他週期費用。個人 side project；原始碼由 [easysun/subway](https://github.com/easysun/subway) 管理，目標網域為 `sub.ages.tw`。
 
+[開啟私有檢視站](https://subway-easysun.ataya-3840.chatgpt.site/) · [部署與 DNS 設定](docs/deployment.md) · [驗證紀錄](docs/verification.md)
+
+目前檢視站使用 ChatGPT 登入，僅擁有者可存取；`sub.ages.tw` 等待 DNS 驗證。這是既有 ChatGPT 工作區提供的檢視部署，尚未改為個人 Cloudflare 帳戶的公開正式服務。
+
 ![Subway 支出總覽（示範資料）](docs/screenshots/subway-overview.jpg)
 
 ## 可以做什麼
